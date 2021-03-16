@@ -1,0 +1,4 @@
+privacy 1 == Public
+privacy 2 == Private
+
+sold 2 = solded

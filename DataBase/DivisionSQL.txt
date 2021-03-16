@@ -1,0 +1,102 @@
+Barisal Barisal Barisal Barisal Barisal Barisal
+
+INSERT INTO `division` (`id`, `divname`, `created`, `updated`, `deleted`) VALUES (NULL, 'Barisal', current_timestamp(), NULL, NULL);
+INSERT INTO `division` (`id`, `divname`, `created`, `updated`, `deleted`) VALUES (NULL, 'Chittagong', current_timestamp(), NULL, NULL);
+INSERT INTO `division` (`id`, `divname`, `created`, `updated`, `deleted`) VALUES (NULL, 'Dhaka', current_timestamp(), NULL, NULL);
+INSERT INTO `division` (`id`, `divname`, `created`, `updated`, `deleted`) VALUES (NULL, 'Mymensingh', current_timestamp(), NULL, NULL);
+INSERT INTO `division` (`id`, `divname`, `created`, `updated`, `deleted`) VALUES (NULL, 'Khulna', current_timestamp(), NULL, NULL);
+INSERT INTO `division` (`id`, `divname`, `created`, `updated`, `deleted`) VALUES (NULL, 'Rajshahi', current_timestamp(), NULL, NULL);
+INSERT INTO `division` (`id`, `divname`, `created`, `updated`, `deleted`) VALUES (NULL, 'Rangpur', current_timestamp(), NULL, NULL);
+INSERT INTO `division` (`id`, `divname`, `created`, `updated`, `deleted`) VALUES (NULL, 'Sylhet', current_timestamp()LL,, NU NULL);
+
+
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '1', 'Barisal', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '1', 'Barguna', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '1', 'Bhola', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '1', 'Jhalokati', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '1', 'Patuakhali', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '1', 'Pirojpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '1', 'Barisal', current_timestamp(), NULL, NULL);
+
+Chittagong Chittagong Chittagong Chittagong Chittagong
+
+
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Bandarban', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Brahmanbaria', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Chandpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Chittagong', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Comilla', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Coxs Bazar', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Feni', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Khagrachari', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Lakshmipur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Noakhali', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '2', 'Rangamati', current_timestamp(), NULL, NULL);
+
+
+Dhaka Dhaka Dhaka Dhaka Dhaka 
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Dhaka', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Faridpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Gazipur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Gopalganj', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Kishoreganj', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Madaripur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Manikganj', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Munshiganj', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Narayanganj', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Narsingdi', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Rajbari', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Shariatpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '3', 'Tangail', current_timestamp(), NULL, NULL);
+
+Mymensingh Mymensingh Mymensingh Mymensingh Mymensingh Mymensingh
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '4', 'Mymensingh', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '4', 'Jamalpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '4', 'Sherpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '4', 'Netrokona', current_timestamp(), NULL, NULL);
+
+
+Khulna Khulna Khulna Khulna Khulna Khulna Khulna
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Bagerhat', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Chuadanga', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Jessore', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Jhenaidah', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Khulna', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Kushtia', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Magura', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Meherpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Narail', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '5', 'Shatkhira', current_timestamp(), NULL, NULL);
+
+
+Rajshahi Rajshahi Rajshahi Rajshahi Rajshahi
+
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '6', 'Bogra', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '6', 'Jaipurhat', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '6', 'Naogaon', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '6', 'Natore', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '6', 'Nawabganj', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '6', 'Pabna', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '6', 'Rajshahi', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '6', 'Sirajganj', current_timestamp(), NULL, NULL);
+
+
+
+
+Rangpur Rangpur Rangpur Rangpur Rangpur
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '7', 'Nilphamari', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '7', 'Rangpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '7', 'Dinajpur', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '7', 'Panchagarh', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '7', 'Gaibandha', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '7', 'Kurigram', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '7', 'Lalmonirhat', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '7', 'Thakurgaon', current_timestamp(), NULL, NULL);
+
+Sylhet Sylhet Sylhet Sylhet 
+
+
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '8', 'Habiganj', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '8', 'Maulvibazar', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '8', 'Sunamganj', current_timestamp(), NULL, NULL);
+INSERT INTO `district` (`id`, `divid`, `disname`, `created`, `updated`, `deleted`) VALUES (NULL, '8', 'Sylhet', current_timestamp(), NULL, NULL);

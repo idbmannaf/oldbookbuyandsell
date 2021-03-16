@@ -1,0 +1,120 @@
+/* responsive menu start */
+@media (max-width: 992px){
+    .container{
+        max-width: 100%;
+    }
+    }
+    
+    @media (max-width: 834px){
+        .main-menu nav .logo{
+            width: 15%;
+            float: none;
+            margin: 0 auto;
+        }
+        .main-menu nav .logo img{
+            width: 100px;
+        }
+        .main-menu nav .all-menu{
+            width: 100%;
+        }
+        .post-book{
+            width: 75%;
+        }
+    }
+    
+    @media (max-width: 714px){
+
+        .list-group{
+            display: none;
+        }
+        .ads{
+            display: none;
+        }
+        .Float{
+           
+            float: right;
+            font-size: 30px;
+        }
+        .maincate .p{
+            display: none;
+        }
+        .main-menu nav .all-menu .menu{
+            width: 100%;
+            float: none;
+            
+            
+        }
+        .main-menu nav .all-menu .menu ul{
+            text-align: center;
+        }
+        .main-menu nav .all-menu .register{
+            width: 100%;
+            float: none;
+        }
+        .main-menu nav .all-menu .register ul{
+            text-align: center;
+        }
+        .recent-post .post-item img{
+            height: 300px;
+        }
+        .main-cat .cate{
+            width: 100%;
+            float: none;
+            
+        }
+        .main-cat .article-area{
+            width: 100%;
+            float: none;
+            margin: 0 auto;
+        }
+        .main-cat .article-area .card{
+            margin-left: 0px !important;
+        }
+        .allcat{
+            display: none;
+        }
+        h3.bg-nav.text-center.text-white {
+            display: none;
+        }
+        .allcat2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        a.cattoggle{
+            display: block;
+            
+            
+        }
+      
+        
+        }
+        
+        @media (max-width:570px){
+            .public-post .p-img img, .private-post .p-img img, .sold-post .p-img img{
+                width: 100%;
+                height: 300;
+            }
+            }
+        @media (max-width: 512px){
+            .main-menu nav .all-menu{
+                display: none;
+            }
+            .main-menu .toggle{
+                display: block;
+            }
+            
+            .main-menu nav .all-menu .menu ul li{
+                display: block;
+            }
+            .post-book{
+                width: 100%;
+            }
+            }
+    
+    /* responsive menu End */
+      /* .public-post .p-img img{
+            width: 100%;
+            height: 400px;
+        } */

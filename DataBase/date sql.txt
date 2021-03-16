@@ -1,0 +1,4 @@
+SELECT *, year(`created`), month(`created`), date(`created`) FROM `articles` WHERE 1
+
+SELECT id,title,details, extract(day from `created`) as day,  extract(month from `created`) as month FROM `articles` WHERE 1
+SELECT id,title,details, extract(day from `created`) as day,  extract(month from `created`) as month FROM tweets  WHERE extract(day from `created`)=18 and extract(month from `created`)=2

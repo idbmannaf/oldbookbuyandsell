@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy or sale your Book</title>
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+</head>
+
+<body>
+    <div class="nav-bar bg-nav">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="logo"><img src="assest/img/logo.png" width="60px" alt=""></div>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="d-flex ">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Writers</a></li>
+                <li><a href="#">Post</a></li>
+                
+            </ul>
+            <ul class=" text-end">
+                <li><a class="text-white" href="#">Login</a></li>
+                <li><a class="text-white" href="#">Register</a></li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+</div>
+
+    <script src="assest/js/bootstrap.bundle.min.js"></script>
+    <script src="assest/js/script.js"></script>
+</body>
+
+</html>

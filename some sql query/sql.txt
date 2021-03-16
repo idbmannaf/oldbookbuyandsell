@@ -1,0 +1,13 @@
+ALTER TABLE post ADD FOREIGN KEY (uid) REFERENCES users (id);
+ALTER TABLE post ADD FOREIGN KEY (cid) REFERENCES categories (id);
+ALTER TABLE post ADD FOREIGN KEY (lid) REFERENCES language (id);
+
+
+SELECT post.*, users.uname, categories.name FROM post JOIN users ON post.uid = users.id JOIN categories ON post.cid = categories.id WHERE post.id =1 LIMIT 1
+
+ALTER TABLE `post` ADD FOREIGN KEY (lid) REFERENCES language (id)
+
+Join TABLE
+
+
+SELECT books.*, users.uname, categories.catname  FROM books JOIN users ON books.uid = users.id JOIN categories ON books.cid = categories.id

@@ -1,0 +1,5 @@
+profile{
+
+
+    INSERT INTO `profile`(`id`, `uid`, `fullname`, `bio`, `image`, `created`, `updated`, `deleted`) VALUES(null,'1','Abd Mannaf','This is abdul Mannaf','1614472422_idb_9167panda.jpg',NULL,NULL,NULL)
+}

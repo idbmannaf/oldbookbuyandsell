@@ -1,0 +1,37 @@
+
+books = id,uid,cid,scid,lid,writerid,booktitle,bookdes,publishername,mrp,price,phone,divid,disid,images,privacy,status,created,updated,deleted
+users = id, uname, email,pass,token, status, role, created,updated,deleted
+categories =  id, name,created,updated,deleted
+subcate = id, cid, name,created,updated,deleted
+language = id, lanname,created,updated,deleted
+Writer= id, writerName,created,updated,deleted
+division= id, divname,created,updated,deleted
+distric= id,divid, disname,created,updated,deleted
+Profile = uid, fullname,bio, image, created,updated,deleted
+bookblogs = id, uid,title,description,cid,scid,tags,created,updated,deleted
+
+
+
+
+Relationship
+
+ALTER TABLE books ADD FOREIGN KEY (uid) REFERENCES users (id);
+ALTER TABLE books ADD FOREIGN KEY (cid) REFERENCES categories (id);
+ALTER TABLE books ADD FOREIGN KEY (scid) REFERENCES subcat (id);
+ALTER TABLE books ADD FOREIGN KEY (lid) REFERENCES language (id);
+ALTER TABLE books ADD FOREIGN KEY (writerid) REFERENCES writers (id);
+ALTER TABLE books ADD FOREIGN KEY (divid) REFERENCES division (id);
+ALTER TABLE books ADD FOREIGN KEY (disid) REFERENCES district (id);
+
+ALTER TABLE subcat ADD FOREIGN KEY (cid) REFERENCES categories (id);
+ALTER TABLE district ADD FOREIGN KEY (divid) REFERENCES division (id);
+ALTER TABLE profile ADD FOREIGN KEY (uid) REFERENCES users (id);
+
+ALTER TABLE bookblogs ADD FOREIGN KEY (uid) REFERENCES users (id);
+ALTER TABLE bookblogs ADD FOREIGN KEY (cid) REFERENCES categories (id);
+ALTER TABLE bookblogs ADD FOREIGN KEY (scid) REFERENCES subcat (id);
+
+ALTER TABLE comments ADD FOREIGN KEY (bookid) REFERENCES books (id);
+ALTER TABLE comments ADD FOREIGN KEY (uid) REFERENCES users (id);
+
+
